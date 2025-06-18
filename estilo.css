@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 /* estilos.css */
 body {
     background-color: #13831b73;
@@ -66,3 +67,73 @@ header h1, .navbar-brand {
 }
 
 
+=======
+/* estilos.css */
+body {
+    background-color: #13831b73;
+}
+
+.botones {
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+    margin-top: 80px;
+    margin-bottom: 80px;
+}
+
+.mi-carrusel {
+  width: 80%;          /* o puedes usar un valor fijo como 600px */
+  max-width: 900px;    /* para que no crezca demasiado */
+  margin: 0 auto;      /* centrado horizontal */
+  border-radius: 20px; /* bordes redondeados si lo deseas */
+  overflow: hidden;    /* para que las imágenes no sobresalgan */
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2); /* sombra opcional */
+  margin-top: 80px;
+  margin-bottom: 80px;
+}
+
+.section-space {
+    text-align: left;
+    color: black;
+    margin-top: 80px;
+    margin-bottom: 80px;
+
+}
+
+/* Fondo degradado para el encabezado */
+.bg-custom-hero {
+  background: linear-gradient(to right, #2e7d32, #1b5e20); /* Tonos verdes oscuros */
+}
+
+/* Redondeado moderno */
+.rounded-4 {
+  border-radius: 1rem !important;
+}
+
+/* Personalización de navbar */
+.navbar {
+  border: 1px solid #dee2e6;
+}
+
+/* Estilo activo y hover de nav-pills */
+.nav-pills .nav-link {
+  border-radius: 0.75rem;
+  transition: all 0.3s ease-in-out;
+}
+
+.nav-pills .nav-link:hover {
+  background-color: #c8e6c9;
+}
+
+.nav-pills .nav-link.active {
+  background-color: #43a047;
+  color: white;
+}
+
+/* Tipografía general */
+header h1, .navbar-brand {
+  font-family: 'Playfair Display', serif;
+}
+
+
+>>>>>>> 7aaaf74466dd9682389f8c61ee1ffee99c28768c
