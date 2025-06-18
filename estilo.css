@@ -133,3 +133,43 @@ header h1, .navbar-brand {
   font-family: 'Playfair Display', serif;
 }
 
+/* Ajustes responsivos para móviles */
+@media (max-width: 768px) {
+  .mi-carrusel {
+    width: 100%;
+    margin: 40px auto;
+  }
+
+  .botones {
+    flex-direction: column;
+    align-items: center;
+    margin-top: 40px;
+    margin-bottom: 40px;
+  }
+
+  .botones .card {
+    width: 90% !important;
+  }
+
+  .section-space {
+    padding: 0 1rem;
+    text-align: justify;
+    margin-top: 40px;
+    margin-bottom: 40px;
+  }
+
+  header h1 {
+    font-size: 1.75rem;
+  }
+
+  header p.lead {
+    font-size: 1rem;
+  }
+
+  .navbar {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+}
+
+
